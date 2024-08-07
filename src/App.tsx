@@ -45,7 +45,7 @@ function App() {
       <CalculatorContainer>
         <Display>{input || '0'}</Display>
         <Button onClick={() => handleClick('C')}>C</Button>
-        <Button onClick={() => handleClick('CC')}>CC</Button>
+        <Button onClick={() => handleClick('C')}>CC</Button>
         <Button onClick={() => handleClick('*')}>*</Button>
         <Button onClick={() => handleClick('/')}>/</Button>
         
